@@ -57,10 +57,10 @@
     display:block;
     position: relative;
     z-index: 1;
-    width: 49px;
-    height: 49px;
-    line-height: 49px;
-    font-size: 26px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 27px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
@@ -109,3 +109,12 @@
 .soc-github:before {
     content:'Q';
 }
+.soc-email1 {
+    background-color: #578AD6;
+}
+.soc-email1:before {
+    content:'<';
+}
+
+
+                    
