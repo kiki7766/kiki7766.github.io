@@ -103,12 +103,6 @@
 .soc-instagram:before {
     content:'x';
 }
-.soc-tumblr {
-    background-color: #45556c;
-}
-.soc-tumblr:before {
-    content:'z';
-}
 .soc-github {
     background-color: #5380c0;
 }
