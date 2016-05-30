@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'si';
+    src: url('../javascripts/socicon.eot');
+    src: url('../javascripts/socicon.eot?#iefix') format('embedded-opentype'),
+         url('../javascripts/socicon.woff') format('woff'),
+         url('../javascripts/socicon.ttf') format('truetype'),
+         url('../javascripts/socicon.svg#icomoonregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+ 
+}
+ 
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family:si;
+        src: url(../javascripts/socicon.svg) format(svg);
+    }
+}
+
+.soc {
+    overflow:hidden;
+    margin:0; padding:0;
+    list-style:none;
+}
+
+.soc li {
+    display:inline-block;
+    *display:inline;
+    zoom:1;
+}
+
+.soc li a {
+    font-family:si!important;
+    font-style:normal;
+    font-weight:400;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -ms-box-sizing:border-box;
+    -o-box-sizing:border-box;
+    box-sizing:border-box;
+
+    -o-transition:.1s;
+    -ms-transition:.1s;
+    -moz-transition:.1s;
+    -webkit-transition:.1s;
+    transition:.1s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+
+    overflow:hidden;
+    text-decoration:none;
+    text-align:center;
+    display:block;
+    position: relative;
+    z-index: 1;
+    width: 49px;
+    height: 49px;
+    line-height: 49px;
+    font-size: 26px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+    color: #ffffff;
+    background-color: none;
+}
+
+.soc a:hover {
+    z-index: 2;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.soc-icon-last{
+    margin:0 !important;
+}
+
+.soc-google {
+    background-color: #d93e2d;
+}
+.soc-google:before {
+    content:'c';
+}
+.soc-deviantart {
+    background-color: #c5d200;
+}
+.soc-deviantart:before {
+    content:'J';
+}
+.soc-facebook {
+    background-color: #3e5b98;
+}
+.soc-facebook:before {
+    content:'b';
+}
+.soc-instagram {
+    background-color: #9c7c6e;
+}
+.soc-instagram:before {
+    content:'x';
+}
+.soc-tumblr {
+    background-color: #45556c;
+}
+.soc-tumblr:before {
+    content:'z';
+}
+.soc-github {
+    background-color: #5380c0;
+}
+.soc-github:before {
+    content:'Q';
+}
