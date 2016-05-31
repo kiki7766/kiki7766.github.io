@@ -27,11 +27,11 @@ ID: 802-13-3175 */
 	}
 
 	.menu li a:hover:not(.active) {
-	    background-color: #33ccff;
+	    background-color: #3399FF;
 	}
 
 	.active {
-	    background-color: #3399ff;
+	    background-color: #3399FF;
       padding: 20px;
       border: 1px solid #ccc; 
 	}
